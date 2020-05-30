@@ -36,11 +36,11 @@ pipeline{
                     agent{
                         docker{
                             reuseNode false
-                            image 'Ubuntu'
+                            image 'ubuntu'
                         }
                     }
                     steps{
-                        echo "Running Integration test"
+                        echo "Running Integration test..."
                     }
 
                 }
