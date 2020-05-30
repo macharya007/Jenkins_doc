@@ -9,9 +9,6 @@ pipeline {
         stage('Two') {
             steps {
                 input("Do you want to proceed?")
-            //     steps{
-            //    echo "Thanks for confirmation,proceeding!!!"
-            //     }
             }
             
         }
@@ -19,12 +16,12 @@ pipeline {
         {
            steps {
                 when {
-                    not {
+                   // not {
                          branch "master"
-                    } 
+                    //} 
                 }
                 steps {
-                    echo "Hello here, in stage three!!!, hehhe"
+                    echo "Hello here, in stage three!!!,"
                 }
             }
         }
