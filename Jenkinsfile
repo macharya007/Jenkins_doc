@@ -9,9 +9,9 @@ pipeline {
         stage('Two') {
             steps {
                 input("Do you want to proceed?")
-                steps{
-               echo "Thanks for confirmation,proceeding!!!"
-                }
+            //     steps{
+            //    echo "Thanks for confirmation,proceeding!!!"
+            //     }
             }
             
         }
