@@ -20,9 +20,9 @@ pipeline {
                 //          branch "master"
                 //     //} 
                 // }
-                steps {
+                // steps {
                     echo "Hello here, in stage three!!!,"
-                }
+                // }
             }
         }
         stage('Four')
